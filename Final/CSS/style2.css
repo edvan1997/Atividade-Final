@@ -1,0 +1,62 @@
+.cabecalho2{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    border-top: 1px solid lightgrey;
+}
+.num-box{
+   margin:20px;
+}
+.box{
+    margin: 10px;
+}
+.caixas3{
+    display: flex;
+    margin: 10px;
+}
+.caixa-01{
+    padding: 10px;
+    width: 40%;
+    height: 350px;
+    background-color: white;
+}
+.mundo{
+    width: 50%;
+    height: 300px;
+    margin-left: 10%;   
+}
+.caixa-02{
+    width: 60%;
+    background-color: white;
+    height: 350px;
+    padding: 10px;
+}
+.sale{
+    margin-bottom: 20px;
+}
+.caixa-02 i{
+    margin-right: 10px;
+}
+.cont-texto p{
+    margin-left: auto;
+}
+.cont-texto{
+    display: flex;
+    align-items: center;
+}
+.linha-externa{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.568);
+    height: 15px;
+    border-radius: 15px;
+}
+.linha-interna{
+    width: 70%;
+    background-color: rgba(6, 241, 65, 0.568);
+    height: 15px;
+    border-radius: 15px;
+}
