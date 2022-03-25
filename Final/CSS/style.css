@@ -34,7 +34,7 @@ h2{
     transition: .3s ease;
 }
 .nav-side-bar:hover{
-    width: 13%;
+    width: 15% !important;
 }
 .nav-side-bar li{
     padding: 10px;
