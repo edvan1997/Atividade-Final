@@ -28,7 +28,7 @@ h2{
 
 .nav-side-bar{
     width: 3%;
-    background-color: rgb(34, 22, 80);
+    background-color: #221650;
     overflow: hidden;
     white-space: nowrap;
     transition: .3s ease;
@@ -65,7 +65,38 @@ h2{
     background-color: greenyellow;
     color: black;
 }
-
+/*MENU RESPONSIVO*/
+    .side-responsiva{
+        display: none;
+        width: 3%;
+        background-color: #221650;
+        overflow: hidden;
+        white-space: nowrap;
+        position: absolute;
+    }
+    .menu-respon-geral{
+        display: none;
+        position: fixed;
+    }
+    .icon-menu-responsivo{
+        width: 30px;
+        height: 30px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 1%;
+        left: 1%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+    .burguer-icon{
+        width: 25px;
+        height: 4px;
+        background-color: black;
+        border-radius: 15px;
+    }
 /*CONTEUDO*/
 
 .cabecalho{
@@ -306,4 +337,15 @@ h2{
 }
 .lin4{
     background-color: grey;
+}
+/* resposividade*/
+@media (max-width:1390px){
+    .nav-side-bar{
+        display: none;
+        position: fixed;
+        min-width: 1px;
+    }
+    .menu-respon-geral{
+        display: block;
+    }
 }

@@ -99,3 +99,16 @@ var ctx = document.getElementById('myChart').getContext('2d');
             ]
           },
         });
+
+
+      
+/*Menu responsivo */
+
+let menu = document.querySelector('.menu-respon-geral')
+let visivel = document.querySelector('.nav-side-bar')
+
+menu.addEventListener('click', function(){
+  visivel.classList.toggle('visivel')
+  console.log('click')
+  
+})

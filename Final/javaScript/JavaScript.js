@@ -60,3 +60,14 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
       }
     }
 });
+
+
+let menu = document.querySelector('.menu-respon-geral')
+let visivel = document.querySelector('.nav-side-bar')
+
+menu.addEventListener('click', function(){
+  console.log('Test1')
+  visivel.classList.toggle('visivel')
+  visivel.style.display = 'block'
+  console.log('test2')
+})
